@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Wstyle.css">
+</head>
+<body>
+  <div class="head-con">
+    <H1>CHECK YOUR WEATHER HERE!</H1>
+  </div>
+  <div class="weather-card">
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Search City">
+      <button id="searchBtn"><img src="images/icons8-search-24.png" alt=""></button>
+    </div>
+    <div class="error">
+      <p>Invalid city Name!</p>
+    </div>
+    <div class="ovrall">
+      <div class="weather-info">
+        <img class="weather-icon" src="images/clouds.png">
+        <h1 id="temperature">20°C</h1>
+        <h2 id="cityName">City</h2>
+      </div>
+      <div class="details">
+        <div class="con">
+          <img src="images/humidity.png">
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="con">
+          <img src="images/wind.png">
+          <div>
+            <p class="wind">15 km/h</p>
+            <p> Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="Wscript.js"></script>
+</body>
+</html>

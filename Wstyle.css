@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  background: url(images/Sky.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.head-con h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.6);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.weather-card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.weather-card .search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.weather-card .search-box input {
+  width: 75%;
+  padding: 15px;
+  margin-top: 5px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-family: "Noto Sans";
+  font-size: 14px;
+}
+.weather-card .search-box button {
+  margin-left: 8px;
+  margin-top: 3px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+.weather-card .weather-info img {
+  width: 170px;
+}
+.weather-card .weather-info h1 {
+  font-family: "Noto Sans";
+  font-size: 60px;
+  font-weight: 600;
+}
+.weather-card .weather-info h2 {
+  font-family: "Noto Sans";
+  font-size: 30px;
+  font-weight: 500;
+}
+.weather-card .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 30px 0px 10px 0px;
+}
+.weather-card .con {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.weather-card .con img {
+  width: 40px;
+  margin-right: 10px;
+}
+.weather-card .con .humidity {
+  font-family: "Noto Sans";
+  font-size: 24px;
+  margin-top: -6px;
+}
+.weather-card .con .wind {
+  font-family: "Noto Sans";
+  font-size: 24px;
+  margin-top: -6px;
+  margin-left: -5px;
+}
+.weather-card .ovrall {
+  display: none;
+}
+.weather-card .error {
+  text-align: left;
+  margin-left: 22px;
+  color: hsl(60, 100%, 70%);
+  font-size: 14px;
+  margin-top: -10px;
+  display: none;
+}/*# sourceMappingURL=Wstyle.css.map */
